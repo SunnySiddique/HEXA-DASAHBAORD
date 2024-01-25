@@ -1,0 +1,61 @@
+.sales-title p {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(10, 10, 10);
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weeks ul p {
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 6px;
+  min-height: 30px;
+  padding: 0px 12px;
+  transition: all 0.3s ease 0s;
+  color: rgb(116, 116, 116);
+  cursor: pointer;
+}
+
+.apexcharts-xaxis-tick {
+  display: none !important;
+}
+
+/* Table */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid rgb(241, 242, 246);
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  white-space: nowrap;
+}
+
+th {
+  background-color: rgb(248, 249, 251);
+}
+
+tr:hover {
+  background-color: rgb(248, 249, 251);
+}
+
+.table-responsive {
+  overflow-y: auto;
+}
+@media (max-width: 768px) {
+  .table-responsive {
+    overflow-y: auto;
+  }
+}

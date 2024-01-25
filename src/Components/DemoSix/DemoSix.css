@@ -1,0 +1,13 @@
+.six-card {
+  padding: 10px;
+}
+
+.apexcharts-datalabels-group {
+  /* display: none !important; */
+}
+
+.Pie-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

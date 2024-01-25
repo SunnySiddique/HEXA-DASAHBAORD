@@ -1,0 +1,33 @@
+.setting-pop-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 20px;
+  cursor: pointer;
+}
+
+.setting-pop-title p {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(10, 10, 10);
+  font-family: Jost, sans-serif;
+}
+
+.setting-pop-title small {
+  margin-bottom: 0px;
+  color: rgb(64, 64, 64);
+  font-family: Jost, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.setting-pop-content-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 65px;
+}
+
+.setting-pop-content:hover {
+  box-shadow: rgba(64, 64, 64, 0.082) 0px 5px 20px;
+}

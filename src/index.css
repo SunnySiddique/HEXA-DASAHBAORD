@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(248, 249, 251);
+  font-family: Jost, sans-serif;
+}
+
+.ant-menu-light .ant-menu-item-selected {
+  background-color: transparent !important;
+  font-weight: bold;
+}
+
+.ant-menu-light .ant-menu-item-selected {
+  color: #8231d3 !important;
+  font-weight: 600;
+}
+
+.ant-menu .ant-menu-item {
+  border-radius: 0px 21px 21px 0px !important;
+}
+
+.ant-menu-light:not(.ant-menu-horizontal)
+  .ant-menu-item:not(.ant-menu-item-selected):hover {
+  background-color: transparent;
+}
+.ant-menu-inline .ant-menu-item {
+  margin-block: 0px !important;
+}
+
+.ant-menu-light.ant-menu-root.ant-menu-vertical {
+  height: 100vh;
+}
+
+.content {
+  margin-left: 85px;
+  padding: 20px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .menubar-main {
+    display: none;
+    width: 80px;
+  }
+  .ant-drawer .ant-drawer-body {
+    overflow: hidden;
+    padding: 0px;
+  }
+  :where(.css-dev-only-do-not-override-dkbvqv).ant-drawer-left
+    > .ant-drawer-content-wrapper {
+    width: 80px !important;
+  }
+  .content {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidemenu {
+    display: none;
+  }
+}
+
+.ant-popover .ant-popover-arrow {
+  display: none;
+}
+
+.ant-popover .ant-popover-inner {
+  padding: 0px !important;
+  border-radius: 5px;
+}
+
+.main-div {
+  padding: 12px;
+}
+.man-div {
+  padding: 12px;
+}
+
+/* profile */
+
+.header-profile {
+  /* display: none; */
+  /* opacity: 0; */
+  transition: opacity 0.3s, background-color 0.3s, transform 0.3s; /* Include all transition properties here */
+}
+
+.three-dot {
+  display: none;
+}
+
+.header-profile.show {
+  display: flex;
+  opacity: 1;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  position: fixed;
+  margin-top: 72px;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease 0s;
+  z-index: 1;
+  box-shadow: rgba(146, 153, 184, 0.063) 0px 2px 30px;
+  padding: 10px 0;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .header-profile {
+    display: none;
+  }
+
+  .three-dot {
+    display: block;
+    cursor: pointer;
+  }
+  .content-title {
+    padding: 20px;
+  }
+  .main-side {
+    padding: 26px;
+  }
+  .header-customize span {
+    display: none;
+  }
+  .setting-pop-content-main {
+    display: none;
+  }
+  .man-div {
+    display: none;
+  }
+  .main-div {
+    display: none;
+  }
+  /* lineChart */
+  .card {
+    margin-top: 30px;
+  }
+
+  .cards {
+    margin-top: 30px;
+  }
+  .footers-bg {
+    display: none !important;
+  }
+}
+
+@media (max-width: 968px) {
+  /* lineChart */
+  .card {
+    margin-top: 30px;
+  }
+
+  .cards {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footers-bg {
+    display: none !important;
+  }
+  .point-count span {
+    font-size: 22px !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .footers-bg {
+    display: none;
+  }
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.apexcharts-menu-icon {
+  display: none;
+}
+.header-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Higher z-index value */
+}
+
+.side-menu {
+  position: fixed;
+  left: 0px;
+  width: 200px;
+  z-index: 999;
+  margin-top: 72px;
+}
+
+/* linechart */
+
+.apexcharts-legend.apx-legend-position-bottom.apexcharts-align-center {
+  display: none;
+}
+
+.footers-bg {
+  padding: 20px 30px 18px;
+  font-size: 14px;
+  background-color: #ffff;
+  box-shadow: rgba(146, 153, 184, 0.05) 0px -5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menus ul li {
+  list-style: none;
+  margin: 0px 9px;
+  color: rgb(64, 64, 64);
+  cursor: pointer;
+}
+
+.footers-title span {
+  margin-left: 64px;
+  display: inline-block;
+  width: 100%;
+  font-weight: 500;
+  color: rgb(64, 64, 64);
+}
+
+.footers-title small {
+  display: inline-block;
+  margin-left: 4px;
+  font-weight: 500;
+  color: rgb(130, 49, 211);
+  font-size: 15px;
+}
+.menus ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+tr:hover {
+  background-color: transparent;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+  .social-icons {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .social-icons {
+    display: none;
+  }
+  .main-pieChart-content {
+    flex-direction: column;
+  }
+}
+
+.main-point {
+  padding: 24px;
+}
+
+.main-chart {
+  padding: 24px;
+}
+
+.spin {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

@@ -1,0 +1,71 @@
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background: rgb(248, 249, 251) !important;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(116, 116, 116);
+  background-color: rgb(248, 249, 251);
+  border: 0px none;
+  font-family: Jost, sans-serif;
+}
+
+.ant-table-wrapper table {
+  border: none;
+}
+
+.ant-table-wrapper .ant-table-tbody > tr > td {
+  border: none;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  border: none;
+  /* border-start-start-radius: 8px; */
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+:where(.css-dev-only-do-not-override-dkbvqv).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th:not(:last-child):not(.ant-table-selection-column):not(
+    .ant-table-row-expand-icon-cell
+  ):not([colspan])::before {
+  display: none;
+}
+
+.table-text {
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(10, 10, 10);
+  font-family: Jost, sans-serif;
+}
+
+.price-title p {
+  color: rgb(10, 10, 10);
+  font-family: Jost, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sold-title p {
+  color: rgb(10, 10, 10);
+  font-family: Jost, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.revenue-title p {
+  color: rgb(10, 10, 10);
+  font-family: Jost, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-end;
+}
+:where(.css-dev-only-do-not-override-dkbvqv).ant-table-wrapper
+  .ant-table-tbody
+  .ant-table-row
+  > .ant-table-cell-row-hover {
+  background: none;
+}

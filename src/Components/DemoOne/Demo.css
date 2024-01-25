@@ -1,0 +1,46 @@
+.demo-header-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.demo-title span {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(10, 10, 10);
+}
+
+.demo-small-title span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.demo-small-title p {
+  font-size: 14px;
+  color: rgb(116, 116, 116);
+  display: flex;
+  align-items: center;
+}
+
+.demo-small-title svg {
+  font-size: 14px;
+  color: rgb(116, 116, 116);
+}
+
+.demo-small-title .ball {
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgb(160, 160, 160);
+}
+
+.demo-small-title span:hover {
+  color: rgb(130, 49, 211);
+}
+
+.demo-small-title span svg:hover {
+  color: rgb(130, 49, 211);
+  cursor: pointer;
+}

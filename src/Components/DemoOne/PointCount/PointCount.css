@@ -1,0 +1,114 @@
+.point-icon {
+  background-color: rgba(130, 49, 211, 0.082);
+  width: 58px;
+  height: 58px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 14px;
+}
+
+.point-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.point-count span {
+  font-size: 30px;
+  line-height: 1.45;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: rgb(10, 10, 10);
+  font-family: Jost, sans-serif;
+}
+
+.point-count p {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(64, 64, 64);
+  font-family: Jost, sans-serif;
+}
+
+.footer-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-title span {
+  display: flex;
+  align-items: center;
+}
+
+.footer-title span svg {
+  color: rgb(1, 184, 26);
+  font-weight: bolder;
+}
+
+.footer-title span p {
+  font-size: 14px;
+  color: rgb(1, 184, 26);
+  font-weight: 500;
+}
+
+.footer-title p {
+  color: rgb(116, 116, 116);
+  font-size: 14px;
+  font-family: Jost, sans-serif;
+}
+
+.footer-title {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px 10px;
+  min-height: 44px;
+  border-radius: 8px;
+  background-color: rgb(248, 249, 251);
+  margin-top: 10px;
+}
+
+.lineChat-header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lineChart-title p {
+  padding: 18px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(10, 10, 10);
+}
+
+.lineChart-icon span svg {
+  color: #868eae;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.flag-hover-mains {
+  display: flex;
+  /* align-items: center; */
+  gap: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 5px 15px;
+}
+
+.flag-hover-mains:hover {
+  background-color: rgba(130, 49, 211, 0.082);
+}
+
+.flag-titles p {
+  color: #404040;
+  font-weight: 400;
+}
+
+.flag-img span svg {
+  width: 19px;
+}

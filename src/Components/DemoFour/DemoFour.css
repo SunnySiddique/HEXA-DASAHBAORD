@@ -1,0 +1,258 @@
+.background-color {
+  background-color: rgb(10, 10, 10);
+  color: #fff;
+  height: 43vh;
+}
+
+.background-img-main {
+  position: relative;
+}
+
+.background-img-main .back-title h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.background-img-main .back-title p {
+  color: rgb(153 150 150);
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.back-img img {
+  position: absolute;
+  bottom: -155px;
+  max-width: 200px;
+  right: -25px;
+  top: 132px;
+}
+
+.background-img-main .back-title a {
+  font-size: 14px;
+  background: rgb(64, 64, 64);
+  border-width: 0px;
+  border-style: solid;
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0px 20.5px;
+  height: 50px;
+  font-weight: 600;
+  box-shadow: 0px 0px;
+  transition: 0.3s;
+}
+
+.background-img-main .back-title a:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(88, 88, 88);
+}
+
+.main-icons span {
+  width: 58px;
+  height: 58px;
+  background-color: rgba(130, 49, 211, 0.125);
+  color: rgb(130, 49, 211);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-size: 28px;
+  margin: 2px auto 10px;
+  border-radius: 14px;
+}
+
+.main-icons {
+  text-align: center;
+}
+
+.main-icons p {
+  font-size: 16px;
+  margin-bottom: 0px;
+  color: rgb(64, 64, 64);
+}
+
+.main-icons small {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: rgb(10, 10, 10);
+}
+
+.mail-img img {
+  max-width: 100px;
+}
+
+.mail-title h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0px 0px 10px;
+  color: rgb(10, 10, 10);
+  font-family: Jost, sans-serif;
+}
+
+.mail-title p {
+  font-size: 15px;
+  margin-bottom: 0px;
+  color: rgb(64, 64, 64);
+  font-family: Jost, sans-serif;
+}
+
+.mail-title button {
+  font-size: 14px;
+  background: rgb(130, 49, 211);
+  border-width: 0px;
+  border-style: solid;
+  color: rgb(255, 255, 255);
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0px 20.5px;
+  height: 38px;
+  font-weight: 600;
+  box-shadow: 0px 0px;
+  margin-top: 14px;
+}
+
+.mail-title button:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(103, 38, 168);
+  cursor: pointer;
+}
+
+.mail-content-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(64, 64, 64);
+}
+
+.main-checksBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.icons svg {
+  width: 16px;
+  height: 16px;
+  color: rgb(116, 116, 116);
+  cursor: pointer;
+}
+
+.icons span svg {
+  width: 16px;
+  height: 16px;
+  color: rgb(116, 116, 116);
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.icons svg:hover {
+  color: red;
+}
+f .ant-table-wrapper .ant-table-thead > tr > td {
+  position: relative;
+  color: rgba(0, 0, 0, 0.88);
+  font-weight: 600;
+  text-align: start;
+  background: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s ease;
+  display: none;
+}
+
+.main-profile img {
+  width: 100%;
+  position: static;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > td {
+  display: none !important;
+}
+
+.header-title h3 {
+  padding: 18px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(10, 10, 10);
+}
+
+.main-points {
+  padding: 0px 14px;
+  height: 500px;
+}
+
+.images-main .image img {
+  max-width: 34px;
+  width: 100%;
+}
+
+.image p {
+  color: rgb(64, 64, 64);
+  font-weight: 500;
+}
+
+.image span {
+  font-size: 12px;
+  line-height: 1;
+  color: rgb(64, 64, 64);
+  font-weight: 500;
+}
+
+.image .span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: rgb(1, 184, 26);
+}
+
+.image-button button {
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 7px 19px;
+  color: rgb(130, 49, 211);
+  background-color: rgba(130, 49, 211, 0.063);
+  outline: none;
+  border: none;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.image-button button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(130, 49, 211);
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.images-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.s {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}

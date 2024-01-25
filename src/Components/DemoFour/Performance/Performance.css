@@ -1,0 +1,61 @@
+.ant-card .ant-card-body {
+  padding: 0px;
+}
+
+.profile-imgs-2 img {
+  padding: 5px;
+  border-radius: 50%;
+  max-width: 110px;
+  background-color: rgb(255, 255, 255);
+}
+
+.main-profile {
+  position: relative;
+}
+
+.profile-imgs-2 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+}
+
+.profile-icons span {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  line-height: 1;
+  color: #fff;
+}
+
+.profile-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.profile-content {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 22px;
+}
+
+.profile-content h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  color: rgb(10, 10, 10);
+}
+
+.profile-content p {
+  margin-bottom: 18px;
+  color: rgb(116, 116, 116);
+}

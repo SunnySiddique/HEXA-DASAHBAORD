@@ -1,0 +1,55 @@
+.main-Card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22px;
+  padding: 12px;
+}
+
+.Card-icons {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.percent-title {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-right: 10px;
+}
+
+.Card-icons-main {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  /* border-right: 1px solid rgb(241, 242, 246); */
+}
+
+.Card-title p span {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: rgb(10, 10, 10);
+}
+
+.Card-title span {
+  font-size: 16px;
+  color: rgb(64, 64, 64);
+}
+
+.percent-title svg {
+  fill: rgb(1, 184, 26);
+}
+
+.percent-title p {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(1, 184, 26);
+}

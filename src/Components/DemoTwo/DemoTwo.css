@@ -1,0 +1,102 @@
+.point-icons {
+  background-color: rgba(130, 49, 211, 0.082);
+  width: 119px;
+  height: 135px;
+  display: flex;
+  /* -webkit-box-align: center; */
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  /* border-radius: 14px; */
+  position: absolute;
+  left: 1;
+  right: 0%;
+  top: 0%;
+  border-radius: 213px 0px 0px 213px;
+  overflow: hidden;
+}
+
+.footer-titles {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-titles span {
+  display: flex;
+  align-items: center;
+}
+
+.footer-titles span svg {
+  color: rgb(1, 184, 26);
+  font-weight: bolder;
+}
+
+.footer-titles span p {
+  font-size: 14px;
+  color: rgb(1, 184, 26);
+  font-weight: 500;
+}
+
+.footer-titles p {
+  color: rgb(116, 116, 116);
+  font-size: 14px;
+  font-family: Jost, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    margin-top: 40px;
+    /* Adjust other styles as needed */
+  }
+
+  .point-icons {
+    height: 123px;
+  }
+
+  /* Add more styles for smaller screens if necessary */
+}
+
+.apexcharts-toolbar {
+  display: none !important;
+}
+
+.apexcharts-legend.apx-legend-position-right {
+  display: none !important;
+}
+
+.main-pieChart-content {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.social-icons span {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.social-icons p {
+  font-size: 15px;
+  color: rgb(10, 10, 10);
+  font-weight: 500;
+  display: block;
+}
+
+.social-icons small {
+  font-size: 14px;
+  color: rgb(64, 64, 64);
+  font-weight: 500;
+  display: block;
+}

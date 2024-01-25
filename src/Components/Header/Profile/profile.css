@@ -1,0 +1,85 @@
+.profile-img img {
+  min-width: 32px;
+  max-width: 32px;
+  min-height: 32px;
+}
+
+.profile-main {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  margin-right: 24px;
+}
+
+.profile-main svg {
+  width: 16px;
+  height: 16px;
+  color: rgb(116, 116, 116);
+}
+.inprofile-m {
+  background: rgb(244, 245, 247);
+}
+
+.inprofile-m {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  align-items: flex-start;
+  padding: 20px 25px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.inProfile-title h5 {
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: rgb(10, 10, 10);
+}
+
+.inProfile-title p {
+  margin-bottom: 0px;
+  font-size: 13px;
+  color: rgb(64, 64, 64);
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.user-profile span svg {
+  width: 16px;
+  transform: rotateY(0deg);
+  color: rgb(116, 116, 116);
+}
+
+.user-profile p {
+  font-size: 14px;
+  font-weight: 400;
+  /* font-family: Jost, sans-serif; */
+  color: rgb(116, 116, 116);
+}
+
+.icons-main {
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 10px 12px;
+  font-size: 14px;
+  transition: all 0.3s ease 0s;
+}
+
+.icons-main:hover {
+  background: rgba(130, 49, 211, 0.02);
+  padding-left: 22px;
+  cursor: pointer;
+  color: rgb(130, 49, 211);
+}
+
+.inProfile-main {
+  padding: 15px;
+}

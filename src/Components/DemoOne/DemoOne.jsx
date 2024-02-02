@@ -7,6 +7,7 @@ import PointCount from "./PointCount/PointCount";
 const DemoOne = () => {
   const [loading, setLoading] = useState(true);
 
+
   useEffect(() => {
     const timeout = setTimeout(() => {
       setLoading(false);
@@ -14,6 +15,10 @@ const DemoOne = () => {
 
     return () => clearTimeout(timeout);
   }, []);
+
+
+
+
   return (
     <>
       {loading ? (

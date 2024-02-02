@@ -1,11 +1,10 @@
 import {
   AlipayOutlined,
   AliwangwangOutlined,
-  AntDesignOutlined,
   DingdingOutlined,
   DropboxOutlined,
   QrcodeOutlined,
-  SlackOutlined
+  SlackOutlined,
 } from "@ant-design/icons";
 import { Drawer, Menu } from "antd";
 import Sider from "antd/es/layout/Sider";
@@ -23,7 +22,7 @@ const SideMenu = () => {
     {
       label: "Demo 1",
       icon: <QrcodeOutlined />,
-      key: "/",
+      key: "/demoone",
     },
     {
       label: "Demo 2",
@@ -50,11 +49,6 @@ const SideMenu = () => {
       icon: <AlipayOutlined />,
       key: "/demosix",
     },
-    {
-      label: "Demo 7",
-      key: "/login",
-      icon: <AntDesignOutlined />,
-    },
   ];
 
   const [activeKey, setActiveKey] = useState("/");
@@ -79,7 +73,14 @@ const SideMenu = () => {
         <Header />
       </div>
       <div style={{ display: "flex", flexDirection: "row", flex: 1 }}>
-        <div style={{ position: "fixed", left: 0, width: "200px", marginTop: "72px" }}>
+        <div
+          style={{
+            position: "fixed",
+            left: 0,
+            width: "200px",
+            marginTop: "72px",
+          }}
+        >
           <Sider collapsible collapsed breakpoint="sm" className="sidemenu">
             <div className="demo-logo-vertical"></div>
             <Drawer

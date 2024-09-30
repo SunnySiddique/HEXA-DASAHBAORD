@@ -1,11 +1,10 @@
-
-const DSeleced = ({Title}) => {
+const DSeleced = ({ Title }) => {
   return (
     <>
-        <div className="sales-title">
-          <p>{Title}</p>
-        </div>
-        {/* <Selected FristTitle="Today" SecondTitle="Week" ThirdTitle="M" /> */}
+      <div className="sales-title">
+        <p>{Title}</p>
+      </div>
+      {/* <Selected FristTitle="Today" SecondTitle="Week" ThirdTitle="M" /> */}
     </>
   );
 };

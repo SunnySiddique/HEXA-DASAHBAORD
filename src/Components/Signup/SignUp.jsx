@@ -51,8 +51,6 @@ const SignUp = () => {
     }
   };
 
-
-
   useEffect(() => {
     if (firebase.LoginIn) {
       navigate("/demoone");
@@ -77,7 +75,7 @@ const SignUp = () => {
                   <span
                     style={{
                       backgroundColor: "rgba(240, 101, 72, 0.063)",
-                      cursor: "pointer"
+                      cursor: "pointer",
                     }}
                     onClick={() => firebase.googleWithSign()}
                   >

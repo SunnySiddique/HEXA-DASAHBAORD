@@ -2,13 +2,13 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 import { initializeApp } from "firebase/app";
 import {
-    GoogleAuthProvider,
-    createUserWithEmailAndPassword,
-    getAuth,
-    onAuthStateChanged,
-    signInWithEmailAndPassword,
-    signInWithPopup,
-    signOut,
+  GoogleAuthProvider,
+  createUserWithEmailAndPassword,
+  getAuth,
+  onAuthStateChanged,
+  signInWithEmailAndPassword,
+  signInWithPopup,
+  signOut,
 } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 
@@ -16,12 +16,12 @@ export const useFirebase = () => useContext(FirebaseContext);
 const FirebaseContext = createContext(null);
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCHakoQBPpfGQ5rwxE06g6PUUWS4uuQQmI",
-  authDomain: "hexa-project-c6c36.firebaseapp.com",
-  projectId: "hexa-project-c6c36",
-  storageBucket: "hexa-project-c6c36.appspot.com",
-  messagingSenderId: "721056395034",
-  appId: "1:721056395034:web:7f8fbdc4e56bb1f4d606a3",
+  apiKey: "AIzaSyCDLJxjptl1wOdsSGrCgkd89WfEw_ckPyg",
+  authDomain: "hexa-dashboard-6716a.firebaseapp.com",
+  projectId: "hexa-dashboard-6716a",
+  storageBucket: "hexa-dashboard-6716a.appspot.com",
+  messagingSenderId: "216272972688",
+  appId: "1:216272972688:web:a4a13c397462ce75656115",
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
@@ -71,8 +71,8 @@ export const FirebaseProvider = (props) => {
   };
 
   const googleWithSign = () => {
-    signInWithPopup(firebaseAuth, googleProvider)
-  }
+    signInWithPopup(firebaseAuth, googleProvider);
+  };
 
   useEffect(() => {
     const unscribe = onAuthStateChanged(firebaseAuth, (currentUser) => {
@@ -87,7 +87,15 @@ export const FirebaseProvider = (props) => {
 
   return (
     <FirebaseContext.Provider
-      value={{ SignUp, LoginPages, SignOut, googleWithSign, user, LoginIn, err }}
+      value={{
+        SignUp,
+        LoginPages,
+        SignOut,
+        googleWithSign,
+        user,
+        LoginIn,
+        err,
+      }}
     >
       {props.children}
     </FirebaseContext.Provider>

@@ -7,8 +7,8 @@ import Selected from "../DemoOne/PointCount/SalesGrow/Selected";
 import Table from "../DemoOne/PointCount/SalesGrow/Table";
 import TopSaling from "../DemoOne/PointCount/SalesGrow/TopSealing/TopSaling";
 import PieChart from "../DemoTwo/Chart/PieChart";
-import HeaderTitle from "../HeaderTitle/HeaderTitle";
 import DSeleced from "../dSeleced/dSeleced";
+import HeaderTitle from "../HeaderTitle/HeaderTitle";
 import RadarChart from "./Chart/RadarChart";
 import RadiaChart from "./Chart/RadiaChart";
 import RadiaChart2 from "./Chart/RadiaChart2";
@@ -28,255 +28,255 @@ const DemoSix = () => {
     <>
       <HeaderTitle />
       {loading ? (
-        <div className="spin" style={{padding: "20px" }}>
+        <div className="spin" style={{ padding: "20px" }}>
           <Spin size="large" />
         </div>
       ) : (
-      <main>
-        <section>
-          {/* One */}
-          <Row gutter={24}>
-            <Col
-              className="gutter-row"
-              xxl={6}
-              xl={6}
-              lg={12}
-              md={12}
-              sm={24}
-              xs={24}
-            >
-              <Card className="six-card">
-                <PointCard
-                  count={100}
-                  icon={<BagIcon />}
-                  title="Total Products"
-                  footerTitle=""
-                  footerIcon={<MdOutlineArrowUpward />}
-                  footerSmallTitle="25.36%"
-                  footerTitles="Since last month"
-                />
-              </Card>
-            </Col>
-            <Col
-              className="gutter-row"
-              xxl={6}
-              xl={6}
-              lg={12}
-              md={12}
-              sm={24}
-              xs={24}
-            >
-              <Card className="six-card">
-                <PointCard
-                  count={30825}
-                  icon={<ShopIcon />}
-                  title="Total Products"
-                  footerTitle=""
-                  footerIcon={<MdOutlineArrowUpward />}
-                  footerSmallTitle="25.36%"
-                  footerTitles="Since last month"
-                  backgroundColor="rgba(0, 170, 255, 0.082)"
-                />
-              </Card>
-            </Col>
-            <Col
-              className="gutter-row"
-              xxl={6}
-              xl={6}
-              lg={12}
-              md={12}
-              sm={24}
-              xs={24}
-            >
-              <Card className="six-card">
-                <PointCard
-                  count={30825}
-                  icon={<DororIcon />}
-                  title="Total Products"
-                  footerTitle=""
-                  footerIcon={<MdOutlineArrowUpward />}
-                  footerSmallTitle="25.36%"
-                  footerTitles="Since last month"
-                  backgroundColor="rgba(88, 64, 255, 0.082)"
-                />
-              </Card>
-            </Col>
-            <Col
-              className="gutter-row"
-              xxl={6}
-              xl={6}
-              lg={12}
-              md={12}
-              sm={24}
-              xs={24}
-            >
-              <Card className="six-card">
-                <PointCard
-                  count={30825}
-                  icon={<TeamIcon />}
-                  title="New Customers"
-                  footerTitle=""
-                  footerIcon={<MdOutlineArrowUpward />}
-                  footerSmallTitle="25.36%"
-                  footerTitles="Since last month"
-                  backgroundColor="rgba(250, 139, 12, 0.082)"
-                />
-              </Card>
-            </Col>
-          </Row>
-          {/* two */}
+        <main>
+          <section>
+            {/* One */}
+            <Row gutter={24}>
+              <Col
+                className="gutter-row"
+                xxl={6}
+                xl={6}
+                lg={12}
+                md={12}
+                sm={24}
+                xs={24}
+              >
+                <Card className="six-card">
+                  <PointCard
+                    count={100}
+                    icon={<BagIcon />}
+                    title="Total Products"
+                    footerTitle=""
+                    footerIcon={<MdOutlineArrowUpward />}
+                    footerSmallTitle="25.36%"
+                    footerTitles="Since last month"
+                  />
+                </Card>
+              </Col>
+              <Col
+                className="gutter-row"
+                xxl={6}
+                xl={6}
+                lg={12}
+                md={12}
+                sm={24}
+                xs={24}
+              >
+                <Card className="six-card">
+                  <PointCard
+                    count={30825}
+                    icon={<ShopIcon />}
+                    title="Total Products"
+                    footerTitle=""
+                    footerIcon={<MdOutlineArrowUpward />}
+                    footerSmallTitle="25.36%"
+                    footerTitles="Since last month"
+                    backgroundColor="rgba(0, 170, 255, 0.082)"
+                  />
+                </Card>
+              </Col>
+              <Col
+                className="gutter-row"
+                xxl={6}
+                xl={6}
+                lg={12}
+                md={12}
+                sm={24}
+                xs={24}
+              >
+                <Card className="six-card">
+                  <PointCard
+                    count={30825}
+                    icon={<DororIcon />}
+                    title="Total Products"
+                    footerTitle=""
+                    footerIcon={<MdOutlineArrowUpward />}
+                    footerSmallTitle="25.36%"
+                    footerTitles="Since last month"
+                    backgroundColor="rgba(88, 64, 255, 0.082)"
+                  />
+                </Card>
+              </Col>
+              <Col
+                className="gutter-row"
+                xxl={6}
+                xl={6}
+                lg={12}
+                md={12}
+                sm={24}
+                xs={24}
+              >
+                <Card className="six-card">
+                  <PointCard
+                    count={30825}
+                    icon={<TeamIcon />}
+                    title="New Customers"
+                    footerTitle=""
+                    footerIcon={<MdOutlineArrowUpward />}
+                    footerSmallTitle="25.36%"
+                    footerTitles="Since last month"
+                    backgroundColor="rgba(250, 139, 12, 0.082)"
+                  />
+                </Card>
+              </Col>
+            </Row>
+            {/* two */}
 
-          <Row gutter={24} style={{ marginTop: "30px" }}>
-            <Col xxl={8} xl={8} lg={8} md={24} sm={24} xs={24}>
-              <Card className="main-poing">
-                <div className="main-header" style={{ padding: "20px" }}>
-                  <DSeleced Title="Pie Chart" />
-                  <Selected
-                    FristTitle="Today"
-                    SecondTitle="Week"
-                    ThirdTitle="Month"
-                  />
-                </div>
-                <div className="Pie-chart">
-                  <PieChart />
-                </div>
-              </Card>
-            </Col>
-            <Col xxl={8} xl={8} lg={8} md={24} sm={24} xs={24}>
-              <Card className="main-poing">
-                <div className="main-header" style={{ padding: "20px" }}>
-                  <DSeleced Title="RadialBar Charts " />
-                  <Selected
-                    FristTitle="Today"
-                    SecondTitle="Week"
-                    ThirdTitle="Month"
-                  />
-                </div>
-                <div className="Pie-chart">
-                  <RadiaChart />
-                </div>
-              </Card>
-            </Col>
-            <Col xxl={8} xl={8} lg={8} md={24} sm={24} xs={24}>
-              <Card className="main-poing">
-                <div className="main-header" style={{ padding: "20px" }}>
-                  <DSeleced Title="Radar Chart  " />
-                  <Selected
-                    FristTitle="Today"
-                    SecondTitle="Week"
-                    ThirdTitle="Month"
-                  />
-                </div>
-                <div className="Pie-chart">
-                  <RadarChart />
-                </div>
-              </Card>
-            </Col>
-          </Row>
+            <Row gutter={24} style={{ marginTop: "30px" }}>
+              <Col xxl={8} xl={8} lg={8} md={24} sm={24} xs={24}>
+                <Card className="main-poing">
+                  <div className="main-header" style={{ padding: "20px" }}>
+                    <DSeleced Title="Pie Chart" />
+                    <Selected
+                      FristTitle="Today"
+                      SecondTitle="Week"
+                      ThirdTitle="Month"
+                    />
+                  </div>
+                  <div className="Pie-chart">
+                    <PieChart />
+                  </div>
+                </Card>
+              </Col>
+              <Col xxl={8} xl={8} lg={8} md={24} sm={24} xs={24}>
+                <Card className="main-poing">
+                  <div className="main-header" style={{ padding: "20px" }}>
+                    <DSeleced Title="RadialBar Charts " />
+                    <Selected
+                      FristTitle="Today"
+                      SecondTitle="Week"
+                      ThirdTitle="Month"
+                    />
+                  </div>
+                  <div className="Pie-chart">
+                    <RadiaChart />
+                  </div>
+                </Card>
+              </Col>
+              <Col xxl={8} xl={8} lg={8} md={24} sm={24} xs={24}>
+                <Card className="main-poing">
+                  <div className="main-header" style={{ padding: "20px" }}>
+                    <DSeleced Title="Radar Chart  " />
+                    <Selected
+                      FristTitle="Today"
+                      SecondTitle="Week"
+                      ThirdTitle="Month"
+                    />
+                  </div>
+                  <div className="Pie-chart">
+                    <RadarChart />
+                  </div>
+                </Card>
+              </Col>
+            </Row>
 
-          {/* Three */}
+            {/* Three */}
 
-          <Row gutter={24} style={{ marginTop: "30px" }}>
-            <Col
-              className="gutter-row"
-              xs={24}
-              sm={24}
-              md={12}
-              lg={12}
-              xl={12}
-              xxl={12}
-              style={{ marginBottom: "30px" }}
-            >
-              <Card className="main-point">
-                <div className="main-header">
-                  <DSeleced Title="Sales by Location" />
-                  <Selected
-                    FristTitle="Today"
-                    SecondTitle="Week"
-                    ThirdTitle="Monthe"
-                  />
-                </div>
-                <div className="colmun">
-                  <RadiaChart2 />
-                </div>
-              </Card>
-            </Col>
-            <Col
-              className="gutter-row"
-              xs={24}
-              sm={24}
-              md={12}
-              lg={12}
-              xl={12}
-              xxl={12}
-            >
-              <Card className="main-point">
-                <div className="main-header">
-                  <DSeleced Title="Sales by Location" />
-                  <Selected
-                    FristTitle="Today"
-                    SecondTitle="Week"
-                    ThirdTitle="Monthe"
-                  />
-                </div>
-                <div className="table">
-                  <Table />
-                </div>
-              </Card>
-            </Col>
-          </Row>
+            <Row gutter={24} style={{ marginTop: "30px" }}>
+              <Col
+                className="gutter-row"
+                xs={24}
+                sm={24}
+                md={12}
+                lg={12}
+                xl={12}
+                xxl={12}
+                style={{ marginBottom: "30px" }}
+              >
+                <Card className="main-point">
+                  <div className="main-header">
+                    <DSeleced Title="Sales by Location" />
+                    <Selected
+                      FristTitle="Today"
+                      SecondTitle="Week"
+                      ThirdTitle="Monthe"
+                    />
+                  </div>
+                  <div className="colmun">
+                    <RadiaChart2 />
+                  </div>
+                </Card>
+              </Col>
+              <Col
+                className="gutter-row"
+                xs={24}
+                sm={24}
+                md={12}
+                lg={12}
+                xl={12}
+                xxl={12}
+              >
+                <Card className="main-point">
+                  <div className="main-header">
+                    <DSeleced Title="Sales by Location" />
+                    <Selected
+                      FristTitle="Today"
+                      SecondTitle="Week"
+                      ThirdTitle="Monthe"
+                    />
+                  </div>
+                  <div className="table">
+                    <Table />
+                  </div>
+                </Card>
+              </Col>
+            </Row>
 
-          {/* Four */}
+            {/* Four */}
 
-          <Row gutter={24} style={{marginTop: "30px"}}>
-            <Col
-              className="gutter-row"
-              xs={24}
-              sm={24}
-              md={12}
-              lg={12}
-              xl={12}
-              xxl={12}
-              style={{ marginBottom: "30px" }}
-            >
-              <Card className="main-point">
-                <div className="main-header">
-                  <DSeleced Title="Sales by Location" />
-                  <Selected
-                    FristTitle="Today"
-                    SecondTitle="Week"
-                    ThirdTitle="Monthe"
-                  />
-                </div>
-                <div className="TobSaling">
-                  <TopSaling />
-                </div>
-              </Card>
-            </Col>
-            <Col
-              className="gutter-row"
-              xs={24}
-              sm={24}
-              md={12}
-              lg={12}
-              xl={12}
-              xxl={12}
-            >
-              <Card className="main-point">
-                <div className="main-header">
-                  <DSeleced Title="Sales by Location" />
-                  <Selected
-                    FristTitle="Today"
-                    SecondTitle="Week"
-                    ThirdTitle="Monthe"
-                  />
-                </div>
-                <BrowserState />
-              </Card>
-            </Col>
-          </Row>
-        </section>
-      </main>
+            <Row gutter={24} style={{ marginTop: "30px" }}>
+              <Col
+                className="gutter-row"
+                xs={24}
+                sm={24}
+                md={12}
+                lg={12}
+                xl={12}
+                xxl={12}
+                style={{ marginBottom: "30px" }}
+              >
+                <Card className="main-point">
+                  <div className="main-header">
+                    <DSeleced Title="Sales by Location" />
+                    <Selected
+                      FristTitle="Today"
+                      SecondTitle="Week"
+                      ThirdTitle="Monthe"
+                    />
+                  </div>
+                  <div className="TobSaling">
+                    <TopSaling />
+                  </div>
+                </Card>
+              </Col>
+              <Col
+                className="gutter-row"
+                xs={24}
+                sm={24}
+                md={12}
+                lg={12}
+                xl={12}
+                xxl={12}
+              >
+                <Card className="main-point">
+                  <div className="main-header">
+                    <DSeleced Title="Sales by Location" />
+                    <Selected
+                      FristTitle="Today"
+                      SecondTitle="Week"
+                      ThirdTitle="Monthe"
+                    />
+                  </div>
+                  <BrowserState />
+                </Card>
+              </Col>
+            </Row>
+          </section>
+        </main>
       )}
     </>
   );
